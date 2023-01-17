@@ -39,7 +39,12 @@ public class Main {
                     num.togli(n);
                     break;
                 case 4:
-
+                    if(num.pari()){
+                        System.out.println("Sì, il numero è pari!");
+                    }
+                    else{
+                        System.out.println("No, il numero non è pari!");
+                    }
                     break;
                 case 5:
 
