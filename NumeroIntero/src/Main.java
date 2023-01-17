@@ -29,7 +29,9 @@ public class Main {
                     num.setNumero(n);
                     break;
                 case 2:
-
+                    System.out.print("Di quanto vuoi incrementare il numero? ");
+                    n = input.nextInt();
+                    num.aggiungi(n);
                     break;
                 case 3:
 
