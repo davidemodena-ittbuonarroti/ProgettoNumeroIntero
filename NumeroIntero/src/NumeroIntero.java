@@ -25,4 +25,8 @@ public class NumeroIntero {
             return false;
         }
     }
+
+    public void aggiungi(int n){
+        numero+=n;
+    }
 }
