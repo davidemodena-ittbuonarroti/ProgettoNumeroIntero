@@ -16,4 +16,13 @@ public class NumeroIntero {
     public String stampa(){
         return "Il numero è: "+numero;
     }
+
+    public boolean pari(){
+        if(numero%2==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
