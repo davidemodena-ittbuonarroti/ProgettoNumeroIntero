@@ -1,6 +1,6 @@
 public class NumeroIntero {
     private int numero;
-    
+
     public int getNumero() {
         return numero;
     }
