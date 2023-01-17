@@ -13,4 +13,7 @@ public class NumeroIntero {
         this.numero = numero;
     }
 
+    public String stampa(){
+        return "Il numero è: "+numero;
+    }
 }
