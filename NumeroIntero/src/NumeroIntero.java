@@ -29,4 +29,8 @@ public class NumeroIntero {
     public void aggiungi(int n){
         numero+=n;
     }
+
+    public void togli(int n){
+        numero-=n;
+    }
 }
