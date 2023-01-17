@@ -34,7 +34,9 @@ public class Main {
                     num.aggiungi(n);
                     break;
                 case 3:
-
+                    System.out.print("Di quanto vuoi decrementare il numero? ");
+                    n = input.nextInt();
+                    num.togli(n);
                     break;
                 case 4:
 
