@@ -33,4 +33,14 @@ public class NumeroIntero {
     public void togli(int n){
         numero-=n;
     }
+
+    public boolean primo(){
+        boolean b = true;
+        for(int i=2;i<numero;i++){
+            if(numero%i==0){
+                b = false;
+            }
+        }
+        return b;
+    }
 }
