@@ -55,7 +55,7 @@ public class Main {
                     }
                     break;
                 case 6:
-
+                    System.out.println(num.stampa());
                     break;
                 default:
                     System.out.println("Errore! Riprova");
