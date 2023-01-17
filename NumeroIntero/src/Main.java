@@ -24,6 +24,9 @@ public class Main {
                     System.out.println("Grazie e arrivederci!");
                     break;
                 case 1:
+                    System.out.print("Inserisci numero: ");
+                    n = input.nextInt();
+                    num.setNumero(n);
                     break;
                 case 2:
 
