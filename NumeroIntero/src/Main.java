@@ -8,7 +8,7 @@ public class Main {
         int scelta = 0, n;
 
         do {
-            System.out.println("0) Esci");
+            System.out.println("\n0) Esci");
             System.out.println("1) Inserisci numero");
             System.out.println("2) Incrementa il numero");
             System.out.println("3) Decrementa il numero");
