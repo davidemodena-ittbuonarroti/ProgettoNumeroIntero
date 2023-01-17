@@ -47,7 +47,12 @@ public class Main {
                     }
                     break;
                 case 5:
-
+                    if(num.primo()){
+                        System.out.println("Sì, il numero è primo!");
+                    }
+                    else{
+                        System.out.println("No, il numero non è primo!");
+                    }
                     break;
                 case 6:
 
